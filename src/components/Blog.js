@@ -9,7 +9,6 @@ function Blog(props) {
   const { title, small_info, pic_url, blog_name, mediaNeed } = props;
   const history = useHistory();
   const moreInfo = () => {
-    console.log(blog_name);
     history.push({
       pathname: "/blog",
       state: { id: blog_name }, // depends which param we must use for fetch all information about that topic
