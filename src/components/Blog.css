@@ -1,0 +1,22 @@
+.cardStyle{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 2rem;
+    margin-top: 1rem;
+    cursor: pointer;
+}
+.blogImage{
+    width: 100%;
+}
+.text_padding{
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+}
+.css-f4h6uy{
+    color: red;
+}
+@media screen and (max-width: 1095px) {
+    .cardStyle{
+        grid-template-columns: 1fr;
+    }
+}

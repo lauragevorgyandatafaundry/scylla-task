@@ -1,0 +1,13 @@
+.relatedList {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 2rem;
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+    cursor: pointer;
+}
+@media screen and (max-width: 1095px) {
+    .relatedList{
+        grid-template-columns: 1fr;
+    }
+}

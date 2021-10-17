@@ -1,24 +1,30 @@
-import logo from './logo.svg';
-import './App.css';
+import React, { useEffect } from "react";
+import { ChakraProvider } from "@chakra-ui/react";
+import "./App.css";
+import { useTranslation } from "react-i18next";
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+import MoreBlogDetails from "./components/MoreBlogDetails";
+import ManContainer from "./components/ManContainer";
+import NavBar from "./components/NavBar";
 
 function App() {
+  const { i18n } = useTranslation();
+  const localeLang = "en";
+
+  useEffect(() => {
+    i18n.changeLanguage(localeLang);
+  }, [localeLang]);
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <ChakraProvider>
+      <Router>
+      <NavBar />
+        <Switch>
+          <Route path="/" exact render={() => <ManContainer />} />
+          <Route path="/blog" render={() => <MoreBlogDetails />} />
+        </Switch>
+      </Router>
+    </ChakraProvider>
   );
 }
 

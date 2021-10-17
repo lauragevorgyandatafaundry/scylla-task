@@ -1,0 +1,15 @@
+.minor_logo {
+  opacity: 1;
+  width: 50px;
+}
+p{
+  color: white;
+}
+.accordionStyle{
+  border: none;
+  font-size: 16px;
+}
+.textStyle{
+  font-size: 16px;
+  font-weight: 400;
+}

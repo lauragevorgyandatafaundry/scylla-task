@@ -1,0 +1,36 @@
+{
+  "solutions": "Solutions",
+  "industries": "Industries",
+  "case_studies": "Case Studies",
+  "company": "Company",
+  "resources": "Resources",
+  "contact_us": "Contact us",
+  "book_a_demo": "Book a demo",
+
+  "how_artifical_int_title": "How Artificial Intelligence Can Benefit Retail Security",
+  "interview_with_olivier_title": "Interview with Oliver Schneider ",
+  "edge_ai_solutions_title": "Edge AI Solutions for Physical Security",
+  "scylla_ai_power_title": "Scylla AI-powered Intrusion Detection System integrated with exacqVision from Johnson Controls",
+  "best_practices_for_campus_title": "Best Practices for Campus Physical Security",
+  "scylla_lauches_title": "Scylla Launches Scylla Asteria™ Smart Edge Monitoring Solution for Home and Small Business Security",
+  "key_steps_in_active_title": "Key Steps in Active Shooter Preparedness for Businesses",
+  "leveraging_ai_video_title": "Leveraging AI Video Analytics for Healthcare Security",
+
+  "how_artifical_int_smallInfo": "Updating existing security systems with AI solutions is critical for retailers. Learn how it helps to prevent losses, better understand the security landscape and respond to threats more effectively.",
+  "interview_with_olivier_smallInfo": "In the interview, an ex-commando officer and a risk and crisis management consultant, Oliver Schneider, speaks about his exciting experience and collaboration with Scylla.",
+  "edge_ai_solutions_smallInfo": "Edge AI technology is a cost-effective, reliable, scalable and easy-to-use solution. Learn how edge AI solutions can be effectively used for physical security.",
+  "scylla_ai_power_smallInfo": "Scylla Perimeter Intrusion Detection System is integrated with exacqVision from Johnson Controls for effective false alarm filtering and situational awareness.",
+  "best_practices_for_campus_smallInfo": "These days AI-powered technologies offer solutions that can help curb numerous physical security threats that K-12 and higher educational establishments face.",
+  "scylla_lauches_smallInfo": "We are launching a smart edge monitoring solution, Scylla Asteria™ for small-scale home and small business security installations",
+  "key_steps_in_active_smallInfo": "Enhancing active shooter preparedness is a must for all organizations. Learn which steps businesses must take to improve active shooter response and physical security.",
+  "leveraging_ai_video_smallInfo": "Cutting-edge physical security solutions help improve effectiveness of healthcare facilities providing round-the-clock monitoring, intelligent AI-based analytics and real-time incident notification.",
+
+  "how_artifical_int_url": "https://www.scylla.ai/static/8a1ea5a693fb43c5def34eaa6cc70bb1/548e4/bg.webp",
+  "interview_with_olivier_url": "https://www.scylla.ai/static/1463a072e3653e1926c73f7ccbbfc54e/be872/bg.webp",
+  "edge_ai_solutions_url": "https://www.scylla.ai/static/4a1788a424cf7519df194ec1ebd9a239/548e4/bg.webp",
+  "scylla_ai_power_url": "https://www.scylla.ai/static/66d25ed4e7f539947f56fa54e70a7855/548e4/bg.webp",
+  "best_practices_for_campus_url": "https://www.scylla.ai/static/f796189d72e0ccf4c50dc23bdb0f9eb0/548e4/bg.webp",
+  "scylla_lauches_url": "https://www.scylla.ai/static/4917abb78c83f43c2943c338da0efb63/548e4/bg.webp",
+  "key_steps_in_active_url": "https://www.scylla.ai/static/b7f4fc24febf34d5ea0377f381600fd6/548e4/bg.webp",
+  "leveraging_ai_video_url": "https://www.scylla.ai/static/2e5ee52c331f148556cabbe6ff690e7a/548e4/bg.webp"
+}
